@@ -3,7 +3,7 @@
 }
 
 .container-fluid {
-  padding: 2% 15% 5% 15%;
+  padding: 3% 15% 7%;
 }
 
 body {
@@ -75,15 +75,20 @@ i {
 /* Title Image */
 
 .title-image {
-  width: 50%;
+  width: 20%;
   transform: rotate(25deg);
   overflow: hidden;
+  position: absolute;
+  right: 23%;
 }
 
 /* Features */
 
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -146,4 +151,29 @@ i[class^="fa-"]:before {
 
 .fa-dog:hover {
   color: white;
+}
+
+/* Pricing */
+
+.btn {
+  padding: 2%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: #d6d6d6;
+}
+
+.pricing-row {
+  width: 80%;
+  margin-left: 10%;
+  height: 110%;
 }
